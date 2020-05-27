@@ -7,6 +7,8 @@
 #wrapper{
     width: 1120px;
     margin: 0 auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -16,18 +18,35 @@ header{
 
 }
 
+h1{
+    line-height: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h2{
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+h3{
+    line-height: 60px;
+    margin-left: 20px;
+}
+
 .first{
     height: 50px;
-    background-color: burlywood;   
+    /* background-color: burlywood;    */
+    border-top: 2px solid black;
+    margin-bottom: 20px;
 }
 /* this .second div holds all the products and their descriptions */
 .second{
-    background-color: cornflowerblue;
+    
 }
 
 .third{
-    height: 200px;
-    background-color: seagreen;
+    height: 250px;
     clear: both; 
     overflow: auto;   
 }
@@ -36,15 +55,14 @@ header{
     height: 100px;
     width: 645px;
     float: left;
-    margin-bottom: 10px;
-    background-color: gainsboro; 
+    margin-bottom: 10px; 
 }
 
 .prod_info{
     height: 60px;
     width: 530px;
     margin: 20px auto;
-    background-color: salmon;
+    /* background-color: salmon; */
     float: right;
 }
 
@@ -56,22 +74,21 @@ button{
 }
 
 .item-box{
-    width: 455px;
+    width: 400px;
     height: auto;
     float: right;
-    background-color: honeydew;
+    /* background-color:red; */
 }
 
 figure{
     margin: 20px auto;
-    background-color: greenyellow;
     height: 392px;
     width: 360px;
 }
 
 #total{
-    width: 550px;
-    height: 150px;
+    width: 600px;
+    height: 200px;
     margin: 25px auto;
     background-color: snow;
     clear: both; 
@@ -80,6 +97,35 @@ figure{
 }
 
 #price{
-    margin: 30px 200px;
+    margin: 20px 200px;
     line-height: 30px;
+}
+
+p{
+    margin: 10px 200px;
+}
+
+.changeColorOne{
+    width: 400px;
+    height: auto;
+    float: right;
+    background-color: blueviolet;    
+}
+.changeColorTwo{
+    width: 400px;
+    height: auto;
+    float: right;
+    background-color: darkred;    
+}
+.changeColorThree{
+    width: 400px;
+    height: auto;
+    float: right;
+    background-color: forestgreen;   
+}
+.changeColorFour{
+    width: 400px;
+    height: auto;
+    float: right;
+    background-color: peru;   
 }
