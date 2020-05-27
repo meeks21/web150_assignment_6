@@ -1,0 +1,85 @@
+*{
+    Padding: 0;
+    Margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 1120px;
+    margin: 0 auto;
+    
+}
+
+header{
+    height: 100px;
+    background-color: bisque;
+
+}
+
+.first{
+    height: 50px;
+    background-color: burlywood;   
+}
+/* this .second div holds all the products and their descriptions */
+.second{
+    background-color: cornflowerblue;
+}
+
+.third{
+    height: 200px;
+    background-color: seagreen;
+    clear: both; 
+    overflow: auto;   
+}
+
+.selection-box{
+    height: 100px;
+    width: 645px;
+    float: left;
+    margin-bottom: 10px;
+    background-color: gainsboro; 
+}
+
+.prod_info{
+    height: 60px;
+    width: 530px;
+    margin: 20px auto;
+    background-color: salmon;
+    float: right;
+}
+
+button{
+    width: 75px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.item-box{
+    width: 455px;
+    height: auto;
+    float: right;
+    background-color: honeydew;
+}
+
+figure{
+    margin: 20px auto;
+    background-color: greenyellow;
+    height: 392px;
+    width: 360px;
+}
+
+#total{
+    width: 550px;
+    height: 150px;
+    margin: 25px auto;
+    background-color: snow;
+    clear: both; 
+    overflow: auto;
+
+}
+
+#price{
+    margin: 30px 200px;
+    line-height: 30px;
+}
